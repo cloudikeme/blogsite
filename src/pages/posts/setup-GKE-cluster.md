@@ -5,6 +5,7 @@ description: We'll be creating a Google Cloud project, enabling the Kubernetes A
 pubDate: 2020-02-02T00:00:00Z
 imgSrc: '/assets/images/A-Guide-to-GKE-Clusters.png'
 imgAlt: 'A-Guide-to-GKE-Clusters'
+tags: ["kubernetes", "GKE"]
 ---
 
 ## GKE Cluster Setup Using gcloud CLI
