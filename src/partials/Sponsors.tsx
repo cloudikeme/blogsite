@@ -8,7 +8,7 @@ import sentryLogo from '../../public/assets/images/sentry-white.png';
 import tursoLogo from '../../public/assets/images/turso.png';
 
 const Sponsors = () => (
-  <Section title="Sponsors">
+  <Section title="My Stack">
     <table className="mx-auto border-collapse">
       <tbody>
         <tr className="h-56">

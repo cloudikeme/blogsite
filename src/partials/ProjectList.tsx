@@ -27,9 +27,9 @@ const ProjectList = () => (
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
+            <Tags color={ColorTags.FUCHSIA}>GKE</Tags>
+            <Tags color={ColorTags.LIME}>Kubernetes</Tags>
+            <Tags color={ColorTags.SKY}>CNCF</Tags>
             <Tags color={ColorTags.ROSE}>TypeScript</Tags>
           </>
         }
