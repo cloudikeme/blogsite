@@ -1,10 +1,4 @@
----
-layout: '@/templates/BasePost.astro'
-title: Resume
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.
----
-
-## [Your Name]
+## Victor Ikeme
 
 **[Your Location in Nigeria] | [Your Phone Number] | [Your Email Address] | [Your LinkedIn Profile URL] | [Your GitHub Profile URL]**
 
