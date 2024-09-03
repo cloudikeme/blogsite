@@ -17,15 +17,15 @@ const Hero = () => (
         <>
           A passionate Observability Focused Engineer, Writer, Content Creator and Tech Evangelist from Nigeria, Africa. 🌍✨
 
-I am deeply passionate about the Observability and monitoring of all kinds of architectural workloads with strong emphasis on cloud native workloads and ML workloads, by applying methodologies for instrumenting, collecting, processing, storing, querying, curating, and correlating observational data such as metrics, logging/events, trace spans, profiles and dumps.{' '}
+., by applying methodologies for instrumenting, collecting, processing, storing, querying, curating, and correlating observational data such as metrics, logging/events, trace spans, profiles and dumps.{' '}
           <a className="text-cyan-400 hover:underline" href="/">
             malesuada
           </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
+          I am deeply passionate about the Observability and monitoring of all kinds of architectural workloads with strong emphasis on cloud native workloads,{' '}
           <a className="text-cyan-400 hover:underline" href="/">
             consectetur
           </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+         
         </>
       }
       avatar={
