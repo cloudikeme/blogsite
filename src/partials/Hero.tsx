@@ -10,12 +10,14 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hey there, I'm <GradientText>Victor Ikeme ( Cloudikeme)!</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
+          A passionate Observability Focused Engineer, Writer, Content Creator and Tech Evangelist from Nigeria, Africa. 🌍✨
+
+I am deeply passionate about the Observability and monitoring of all kinds of architectural workloads with strong emphasis on cloud native workloads and ML workloads, by applying methodologies for instrumenting, collecting, processing, storing, querying, curating, and correlating observational data such as metrics, logging/events, trace spans, profiles and dumps.{' '}
           <a className="text-cyan-400 hover:underline" href="/">
             malesuada
           </a>{' '}
