@@ -1,28 +1,6 @@
 ---
 import Base from '@/templates/Base.astro';
-
-export async function getStaticPaths() {
-  return [
-    { params: { tag: "kubernetes" } },
-    { params: { tag: "GKE" } },
-    { params: { tag: "community" } },
-    { params: { tag: "tutorial" } },
-    { params: { tag: "helm" } },
-    { params: { tag: "AWS" } },
-    { params: { tag: "EKS" } },
-  ];
-}
-
-const { tag } = Astro.params;
----
-<Base pageTitle={tag}>
-  <p>Posts tagged with {tag}</p>
-</Base>
-
-
----
-import BaseLayout from '../../layouts/Base.astro';
-import BlogPost from '../../components/BlogPost.astro';
+import BasePost from '@/templates/BasePost.astro'
 
 export async function getStaticPaths() {
   const allPosts = await Astro.glob('../posts/*.md');
@@ -31,15 +9,10 @@ export async function getStaticPaths() {
 
   return uniqueTags.map((tag) => {
     const filteredPosts = allPosts.filter((post) => post.frontmatter.tags.includes(tag));
-    return [
-    {params: {tag: "kubernetes"}, props: {posts: allPosts}},
-    {params: {tag: "GKE"}, props: {posts: allPosts}},
-    {params: {tag: "community"}, props: {posts: allPosts}},
-    {params: {tag: "AWS"}, props: {posts: allPosts}},
-    {params: {tag: "helm"}, props: {posts: allPosts}},
-    {params: {tag: "tutorial"}, props: {posts: allPosts}}
-    {params: {tag: "EKS"}, props: {posts: allPosts}}
-  ];
+    return {
+      params: { tag },
+      props: { posts: filteredPosts },
+    };
   });
 }
 
@@ -49,6 +22,6 @@ const { posts } = Astro.props;
 <Base pageTitle={tag}>
   <p>Posts tagged with {tag}</p>
   <ul>
-    {posts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title}/>)}
+    {posts.map((post) => <BasePost url={post.url} title={post.frontmatter.title}/>)}
   </ul>
 </Base>
