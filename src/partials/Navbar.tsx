@@ -34,10 +34,9 @@ const Navbar = () => (
 
       <NavMenu>
         <NavMenuItem href="/posts/">Blogs</NavMenuItem>
-        <NavMenuItem href="/posts/">Resume</NavMenuItem>
-        <NavMenuItem href="/posts/">Tutorials</NavMenuItem>
-        <NavMenuItem href="/">GitHub</NavMenuItem>
-        <NavMenuItem href="/">Twitter</NavMenuItem>
+        <NavMenuItem href="/resume/">Resume</NavMenuItem>
+        <NavMenuItem href="/tutorials/">Tutorials</NavMenuItem>
+        <NavMenuItem href="https://github.com/cloudikeme">GitHub</NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>
   </Section>
