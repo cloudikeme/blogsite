@@ -5,14 +5,9 @@ description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ve
 pubDate: 2020-02-06T00:00:00Z
 imgSrc: '/assets/images/image-post.jpeg'
 imgAlt: 'Image post'
-category={
-          <>
-            <Tags color={ColorTags.FUCHSIA}>GKE</Tags>
-            <Tags color={ColorTags.LIME}>Kubernetes</Tags>
-            <Tags color={ColorTags.SKY}>CNCF</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
-          </>
-        }
+tags:
+  - Kubernetes
+  - GKE
 ---
 
 This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
