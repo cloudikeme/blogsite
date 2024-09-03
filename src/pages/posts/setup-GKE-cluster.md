@@ -7,8 +7,6 @@ imgSrc: '/assets/images/A-Guide-to-GKE-Clusters.png'
 imgAlt: 'A-Guide-to-GKE-Clusters'
 ---
 
-
-
 ## GKE Cluster Setup Using gcloud CLI
 
 In this tutorial, we'll learn how to create a Google Cloud project, enable the Kubernetes API, and create a GKE cluster.
